@@ -6,5 +6,5 @@ build
 
 .idea/
 hellow-camp.iml
+gradle/wrapper/gradle-wrapper.jar
 out/
-

@@ -12,7 +12,7 @@ public class RectangleTest {
 
     @Before
     public void setUp() throws Exception {
-        rectangle = new Rectangle(3.1 ,4.2);
+        rectangle = new Rectangle(3.0 ,4.0);
     }
 
     @Test
@@ -23,7 +23,7 @@ public class RectangleTest {
         double circumference = rectangle.circumference();
 
         // then
-        assertThat(circumference).isEqualTo(14.6);
+        assertThat(circumference).isEqualTo(14.0);
 
     }
 
@@ -35,6 +35,6 @@ public class RectangleTest {
         double area = rectangle.area();
 
         // then
-        assertThat(area).isEqualTo(13);
+        assertThat(area).isEqualTo(12.0);
     }
 }
